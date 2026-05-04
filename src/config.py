@@ -27,7 +27,11 @@ COLLECTION_NAME = "wikipedia_rag"
 # Each entity has a Wikipedia title and a type (person | place).
 # The type is stored as metadata so we can filter at query time.
 ENTITIES = [
-    # --- People (required minimum) ---
+    # =========================================================
+    # PEOPLE
+    # =========================================================
+
+    
     {"title": "Albert Einstein", "type": "person"},
     {"title": "Marie Curie", "type": "person"},
     {"title": "Leonardo da Vinci", "type": "person"},
@@ -38,7 +42,8 @@ ENTITIES = [
     {"title": "Cristiano Ronaldo", "type": "person"},
     {"title": "Taylor Swift", "type": "person"},
     {"title": "Frida Kahlo", "type": "person"},
-    # --- People (extras to reach 20) ---
+
+    
     {"title": "Isaac Newton", "type": "person"},
     {"title": "Charles Darwin", "type": "person"},
     {"title": "Mahatma Gandhi", "type": "person"},
@@ -50,7 +55,36 @@ ENTITIES = [
     {"title": "Wolfgang Amadeus Mozart", "type": "person"},
     {"title": "Ludwig van Beethoven", "type": "person"},
 
-    # --- Places (required minimum) ---
+    
+    {"title": "Galileo Galilei", "type": "person"},
+    {"title": "Cleopatra", "type": "person"},
+    {"title": "Genghis Khan", "type": "person"},
+    {"title": "Suleiman the Magnificent", "type": "person"},
+    {"title": "Christopher Columbus", "type": "person"},
+    {"title": "Elon Musk", "type": "person"},
+    {"title": "Steve Jobs", "type": "person"},
+    {"title": "Michael Jackson", "type": "person"},
+    {"title": "Bruce Lee", "type": "person"},
+    {"title": "Muhammad Ali", "type": "person"},
+    {"title": "Serena Williams", "type": "person"},
+    {"title": "Michelangelo", "type": "person"},
+    {"title": "Jane Austen", "type": "person"},
+    {"title": "Mary Shelley", "type": "person"},
+    {"title": "Alexander the Great", "type": "person"},
+
+    
+    {"title": "Stevie Nicks", "type": "person"},
+    {"title": "Ronnie James Dio", "type": "person"},
+    {"title": "Klaus Meine", "type": "person"},
+    {"title": "David Hume", "type": "person"},
+    {"title": "Ricardo Quaresma", "type": "person"},
+    
+
+    # =========================================================
+    # PLACES
+    # =========================================================
+
+    
     {"title": "Eiffel Tower", "type": "place"},
     {"title": "Great Wall of China", "type": "place"},
     {"title": "Taj Mahal", "type": "place"},
@@ -59,9 +93,10 @@ ENTITIES = [
     {"title": "Colosseum", "type": "place"},
     {"title": "Hagia Sophia", "type": "place"},
     {"title": "Statue of Liberty", "type": "place"},
-    {"title": "Giza pyramid complex", "type": "place"},   # Wikipedia title for Pyramids of Giza
+    {"title": "Giza pyramid complex", "type": "place"}, 
     {"title": "Mount Everest", "type": "place"},
-    # --- Places (extras to reach 20) ---
+
+    
     {"title": "Stonehenge", "type": "place"},
     {"title": "Petra", "type": "place"},
     {"title": "Christ the Redeemer (statue)", "type": "place"},
@@ -72,4 +107,30 @@ ENTITIES = [
     {"title": "Sagrada Família", "type": "place"},
     {"title": "Chichen Itza", "type": "place"},
     {"title": "Topkapı Palace", "type": "place"},
-]
+
+    
+    {"title": "Cappadocia", "type": "place"},
+    {"title": "Santorini", "type": "place"},
+    {"title": "Galápagos Islands", "type": "place"},
+    {"title": "Sahara", "type": "place"},
+    {"title": "Amazon rainforest", "type": "place"},
+    {"title": "Yellowstone National Park", "type": "place"},
+    {"title": "Times Square", "type": "place"},
+    {"title": "Buckingham Palace", "type": "place"},
+    {"title": "Forbidden City", "type": "place"},
+    {"title": "Mount Kilimanjaro", "type": "place"},
+    {"title": "Sydney Opera House", "type": "place"},
+    {"title": "Uluru", "type": "place"},
+    {"title": "Easter Island", "type": "place"},
+    {"title": "Lake Baikal", "type": "place"},
+    {"title": "Alhambra", "type": "place"},
+
+    
+    {"title": "Hungarian Parliament Building", "type": "place"},
+    {"title": "Sint-Petrus-en-Pauluskerk", "type": "place"},
+    {"title": "Notre-Dame de Paris", "type": "place"},
+    {"title": "Roman Baths of Ankara", "type": "place"},
+    {"title": "Vaduz Castle", "type": "place"},
+    
+
+    ]
