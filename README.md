@@ -6,7 +6,8 @@ the embeddings, the vector store, and the UI all run on your own
 machine. No external APIs are called.
 
 Built for **BLG483E – Project 3**.
-
+---
+## Demo Video link: https://youtu.be/5LXFQIq2K6g
 ---
 
 ## What you'll need
